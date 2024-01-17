@@ -2,7 +2,7 @@
 
 # Title:        Gatekeeper
 #
-# Description:  Toggle access to the network with the pushbutton 
+# Description:  Toggle access to the network with the pushbutton
 
 # Set the default network mode (such as NAT or BRIDGE)
 NETWORK_MODE="BRIDGE"
@@ -11,7 +11,7 @@ NETMODE ${NETWORK_MODE}
 
 LED G SOLID
 
-while true; do 
+while true; do
     # Run the buttom command with no LED; this way the LED stays
     # solid green
     NO_LED=1 BUTTON
