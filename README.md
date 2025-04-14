@@ -10,17 +10,17 @@ Payloads for a Packet Squirrel Mark II
 opkg update
 opkg install unzip
 cd /usb
-wget https://github.com/shaunsund/packetsqurrel-scripts/archive/refs/heads/main.zip
-unzip main.zip
-cd packetsquirrel-scripts-main
+wget -O packetsquirrel-scripts.zip https://github.com/shaunsund/packetsquirrel-scripts/archive/refs/tags/0.0.2.zip
+unzip packetsquirrel-scripts.zip
+cd packetsquirrel-scripts-0.0.2
 ./deploy
 cd ..
-rm main.zip
-rm -rfv packetsquirrel-scripts-main
+rm packetsquirrel-scripts.zip
+rm -rfv packetsquirrel-scripts-0.0.2
 cd
 ```
 
 ## About Packet Squirrel Mark II
 
-Offical Packet Squirrel ressources:
+Official Packet Squirrel resources:
  [HAK5 Shop](https://hak5.org/products/packet-squirrel-mark-ii) | [Documentation](https://docs.hak5.org/packet-squirrel-mark-ii/) | [GitHub](https://github.com/hak5/packetsquirrel-payloads)
