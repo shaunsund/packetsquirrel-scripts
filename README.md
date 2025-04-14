@@ -14,8 +14,10 @@ wget https://github.com/shaunsund/packetsqurrel-scripts/archive/refs/heads/main.
 unzip main.zip
 cd packetsquirrel-scripts-main
 ./deploy
-cd
+cd ..
+rm main.zip
 rm -rfv packetsquirrel-scripts-main
+cd
 ```
 
 ## About Packet Squirrel Mark II
