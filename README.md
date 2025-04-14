@@ -12,10 +12,10 @@ opkg install unzip
 cd /usb
 wget https://github.com/shaunsund/packetsqurrel-scripts/archive/refs/heads/main.zip
 unzip main.zip
-cd lanturtle-scripts-main
+cd packetsquirrel-scripts-main
 ./deploy
 cd
-rm -rfv lanturtle-scripts-main
+rm -rfv packetsquirrel-scripts-main
 ```
 
 ## About Packet Squirrel Mark II
